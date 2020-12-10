@@ -6,20 +6,166 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3A1BA47425912B6D00F6F046 /* PinExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BA47325912B6D00F6F046 /* PinExampleViewController.swift */; };
+		3A1BA47725912B8B00F6F046 /* ScenariosExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BA47625912B8B00F6F046 /* ScenariosExampleViewController.swift */; };
+		3A1BA47A2591E75E00F6F046 /* LabeledController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1BA4792591E75E00F6F046 /* LabeledController.swift */; };
+		3A1ECB8B25828F3000620E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ECB8A25828F3000620E63 /* AppDelegate.swift */; };
+		3A1ECB8F25828F3000620E63 /* LoopThroughExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ECB8E25828F3000620E63 /* LoopThroughExampleViewController.swift */; };
+		3A1ECBA82582A4FA00620E63 /* ScrollingExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ECBA72582A4FA00620E63 /* ScrollingExampleViewController.swift */; };
+		3A1ECBAC2582AFEC00620E63 /* Keybro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ECBAB2582AFEC00620E63 /* Keybro.swift */; };
+		3A289EFE25A71ECE00B7CF9C /* KeybroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A289EFD25A71ECE00B7CF9C /* KeybroTests.swift */; };
+		3A289F0525A71EFE00B7CF9C /* Keybro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ECBAB2582AFEC00620E63 /* Keybro.swift */; };
+		3A9F9282258A0EF0003E5268 /* ScrollCommandsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F9281258A0EF0003E5268 /* ScrollCommandsProtocol.swift */; };
+		3A9F9286258A13E9003E5268 /* LoopThroughCommandsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F9285258A13E9003E5268 /* LoopThroughCommandsProtocol.swift */; };
+		3ABA19592598C6CC00AE255E /* LegendLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA19582598C6CC00AE255E /* LegendLabel.swift */; };
+		3ABA195C2599118000AE255E /* UIViewController+Legend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA195B2599118000AE255E /* UIViewController+Legend.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A1BA47325912B6D00F6F046 /* PinExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinExampleViewController.swift; sourceTree = "<group>"; };
+		3A1BA47625912B8B00F6F046 /* ScenariosExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenariosExampleViewController.swift; sourceTree = "<group>"; };
+		3A1BA4792591E75E00F6F046 /* LabeledController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledController.swift; sourceTree = "<group>"; };
+		3A1ECB8725828F3000620E63 /* keybro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keybro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1ECB8A25828F3000620E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A1ECB8E25828F3000620E63 /* LoopThroughExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopThroughExampleViewController.swift; sourceTree = "<group>"; };
+		3A1ECB9825828F3100620E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1ECBA72582A4FA00620E63 /* ScrollingExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingExampleViewController.swift; sourceTree = "<group>"; };
+		3A1ECBAB2582AFEC00620E63 /* Keybro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keybro.swift; sourceTree = "<group>"; };
+		3A289EFB25A71ECE00B7CF9C /* tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A289EFD25A71ECE00B7CF9C /* KeybroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeybroTests.swift; sourceTree = "<group>"; };
+		3A289EFF25A71ECE00B7CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9F9281258A0EF0003E5268 /* ScrollCommandsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCommandsProtocol.swift; sourceTree = "<group>"; };
+		3A9F9285258A13E9003E5268 /* LoopThroughCommandsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopThroughCommandsProtocol.swift; sourceTree = "<group>"; };
+		3ABA19582598C6CC00AE255E /* LegendLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendLabel.swift; sourceTree = "<group>"; };
+		3ABA195B2599118000AE255E /* UIViewController+Legend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Legend.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1ECB8425828F3000620E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A289EF825A71ECE00B7CF9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		3A1ECB7C25828EAF00620E63 = {
 			isa = PBXGroup;
 			children = (
+				3A1ECB8925828F3000620E63 /* keybro */,
+				3A289EFC25A71ECE00B7CF9C /* tests */,
+				3A1ECB8825828F3000620E63 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		3A1ECB8825828F3000620E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1ECB8725828F3000620E63 /* keybro.app */,
+				3A289EFB25A71ECE00B7CF9C /* tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1ECB8925828F3000620E63 /* keybro */ = {
+			isa = PBXGroup;
+			children = (
+				3A9F9280258A0EDB003E5268 /* Examples */,
+				3A1ECB8A25828F3000620E63 /* AppDelegate.swift */,
+				3A1ECB9825828F3100620E63 /* Info.plist */,
+				3A1ECBAB2582AFEC00620E63 /* Keybro.swift */,
+			);
+			path = keybro;
+			sourceTree = "<group>";
+		};
+		3A289EFC25A71ECE00B7CF9C /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				3A289EFD25A71ECE00B7CF9C /* KeybroTests.swift */,
+				3A289EFF25A71ECE00B7CF9C /* Info.plist */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		3A9F9280258A0EDB003E5268 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				3A1ECBA72582A4FA00620E63 /* ScrollingExampleViewController.swift */,
+				3A9F9281258A0EF0003E5268 /* ScrollCommandsProtocol.swift */,
+				3A9F9285258A13E9003E5268 /* LoopThroughCommandsProtocol.swift */,
+				3A1ECB8E25828F3000620E63 /* LoopThroughExampleViewController.swift */,
+				3A1BA47325912B6D00F6F046 /* PinExampleViewController.swift */,
+				3A1BA47625912B8B00F6F046 /* ScenariosExampleViewController.swift */,
+				3A1BA4792591E75E00F6F046 /* LabeledController.swift */,
+				3ABA19582598C6CC00AE255E /* LegendLabel.swift */,
+				3ABA195B2599118000AE255E /* UIViewController+Legend.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1ECB8625828F3000620E63 /* keybro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1ECB9925828F3100620E63 /* Build configuration list for PBXNativeTarget "keybro" */;
+			buildPhases = (
+				3A1ECB8325828F3000620E63 /* Sources */,
+				3A1ECB8425828F3000620E63 /* Frameworks */,
+				3A1ECB8525828F3000620E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keybro;
+			productName = keybro;
+			productReference = 3A1ECB8725828F3000620E63 /* keybro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A289EFA25A71ECE00B7CF9C /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A289F0225A71ECE00B7CF9C /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				3A289EF725A71ECE00B7CF9C /* Sources */,
+				3A289EF825A71ECE00B7CF9C /* Frameworks */,
+				3A289EF925A71ECE00B7CF9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tests;
+			productName = tests;
+			productReference = 3A289EFB25A71ECE00B7CF9C /* tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3A1ECB7D25828EAF00620E63 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3A1ECB8625828F3000620E63 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					3A289EFA25A71ECE00B7CF9C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
 			};
 			buildConfigurationList = 3A1ECB8025828EAF00620E63 /* Build configuration list for PBXProject "keybro" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -30,12 +176,62 @@
 				Base,
 			);
 			mainGroup = 3A1ECB7C25828EAF00620E63;
+			productRefGroup = 3A1ECB8825828F3000620E63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				3A1ECB8625828F3000620E63 /* keybro */,
+				3A289EFA25A71ECE00B7CF9C /* tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1ECB8525828F3000620E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A289EF925A71ECE00B7CF9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1ECB8325828F3000620E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1BA47A2591E75E00F6F046 /* LabeledController.swift in Sources */,
+				3A9F9282258A0EF0003E5268 /* ScrollCommandsProtocol.swift in Sources */,
+				3A1BA47725912B8B00F6F046 /* ScenariosExampleViewController.swift in Sources */,
+				3ABA19592598C6CC00AE255E /* LegendLabel.swift in Sources */,
+				3ABA195C2599118000AE255E /* UIViewController+Legend.swift in Sources */,
+				3A1ECBA82582A4FA00620E63 /* ScrollingExampleViewController.swift in Sources */,
+				3A1ECB8F25828F3000620E63 /* LoopThroughExampleViewController.swift in Sources */,
+				3A1ECB8B25828F3000620E63 /* AppDelegate.swift in Sources */,
+				3A1ECBAC2582AFEC00620E63 /* Keybro.swift in Sources */,
+				3A1BA47425912B6D00F6F046 /* PinExampleViewController.swift in Sources */,
+				3A9F9286258A13E9003E5268 /* LoopThroughCommandsProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A289EF725A71ECE00B7CF9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A289F0525A71EFE00B7CF9C /* Keybro.swift in Sources */,
+				3A289EFE25A71ECE00B7CF9C /* KeybroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		3A1ECB8125828EAF00620E63 /* Debug */ = {
@@ -50,6 +246,284 @@
 			};
 			name = Release;
 		};
+		3A1ECB9A25828F3100620E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = keybro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = antongaenko.keybro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A1ECB9B25828F3100620E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = keybro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = antongaenko.keybro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A289F0025A71ECE00B7CF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = antongaenko.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A289F0125A71ECE00B7CF9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = antongaenko.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -58,6 +532,24 @@
 			buildConfigurations = (
 				3A1ECB8125828EAF00620E63 /* Debug */,
 				3A1ECB8225828EAF00620E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1ECB9925828F3100620E63 /* Build configuration list for PBXNativeTarget "keybro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1ECB9A25828F3100620E63 /* Debug */,
+				3A1ECB9B25828F3100620E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A289F0225A71ECE00B7CF9C /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A289F0025A71ECE00B7CF9C /* Debug */,
+				3A289F0125A71ECE00B7CF9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
