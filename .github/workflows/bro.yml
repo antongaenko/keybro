@@ -1,0 +1,24 @@
+name: bro workflow
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build and Test default scheme using any available iPhone simulator
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        run: |
+          device=`instruments -s -devices | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}'`
+          xcodebuild build -scheme keybro -workspace keybro.xcodeproj/project.xcworkspace -destination "platform=iOS Simulator,name=$device"
+      - name: Test
+        run: |
+          device=`instruments -s -devices | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}'`
+          xcodebuild test -scheme tests -workspace keybro.xcodeproj/project.xcworkspace -destination "platform=iOS Simulator,name=$device"
