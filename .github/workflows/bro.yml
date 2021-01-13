@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Build and Test default scheme using any available iPhone simulator
+    name: will build & test, bro
     runs-on: macos-latest
 
     steps:
