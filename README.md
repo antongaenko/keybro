@@ -2,15 +2,17 @@
 
 # Keybro
 
-No more than easy keyboard shortcuts for your app in [120 lines of code](https://github.com/antongaenko/keybro/blob/main/keybro/Keybro.swift). Checkout and run an example app in a simulator to play with it or watch demos below.
+## What is it? 
+
+It's a wrapper for `UIKeyCommand` which allows you to easily create keyboard shortcuts for your iOS app. It can speed up development and manual testing apps in simulator. This micro lib contains one file and only [120 lines of code](https://github.com/antongaenko/keybro/blob/main/keybro/Keybro.swift). You can run an example app or scroll below for inspiration.
 
 ## Why?
 
-If you check how many times you repeat the same actions during development (drag cursor, click, scroll, drag again, click and so on), you may recognize that doing the same with keyboard shortcuts can save you some time and effort. 
+If you check how many times you repeat the same actions during development (drag cursor, click, scroll, drag again, click and so on), you may recognize that doing the same with keyboard shortcuts can save you some time and effort. Actually you can just use `UIKeyCommand` if you don't want to use this micro lib and get the same results. It's up to you.
 
 ## Examples
 
-I recommend you to checkout and play with keyboard shortcuts yourself in the demo app for inspiration. The main purpose of this project is to give your ideas and basic tools. But I prepared a few screencasts below.
+The main purpose of this project is to give your ideas and basic tools.
 
 A) Show specific screens and close them without single touch ([link to source code](https://github.com/antongaenko/keybro/blob/main/keybro/Examples/ScenariosExampleViewController.swift#L19))
 
@@ -43,19 +45,19 @@ G) Or make some useless and fun things like zooming 🔫 ([link to source code](
 
 ## Installation
 
-Currently the only way is to download and add `Keybro.swift` (its 120 lines of code) to your project directly:
+Just download and add `Keybro.swift` (its 120 lines of code) to your project.
 
 ```curl -O https://raw.githubusercontent.com/antongaenko/keybro/main/keybro/Keybro.swift```
 
-But I'm planning to add support for SPM, Cocoapods and Carthage.
+I'm also planning to add support for SPM, Cocoapods and Carthage later.
 
 ## How to use?
 
-You can simply call methods on `UIViewController`: `add(command: Command)` or `add(commands: [Command])`. 
+Call methods on `UIViewController` instance: `add(command: Command)` or `add(commands: [Command])`. 
 
 If you want to add keyboard shortcuts only in debug builds just use `addDebug(command: Command)` or `addDebug(commands: [Command])` methods. 
 
-You can call `removeAllCommands()` at any time to remove commands attached to the current view controller. But take in mind that commands will be removed on `UIViewController.deinit` automatically if you keep weak references on the controller in the command action block, so in simple cases there is no need to call it.
+You can call `removeAllCommands()` at any time to remove commands attached to the current view controller. There is no need to call it in simple cases. 
 
 For example for predefined keys ([space, enter, backspace, digits, tab](https://github.com/antongaenko/keybro/blob/main/keybro/Keybro.swift#L13)) you can write:
 
@@ -77,6 +79,8 @@ navigationController.add(commands: [
 ])
 ```
 > Check full example [AppDelegate](https://github.com/antongaenko/keybro/blob/main/keybro/AppDelegate.swift#L68)
+
+**Don't forget using `weak` reference in action blocks of commands.**
 
 ## Contributing
 
