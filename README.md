@@ -89,7 +89,7 @@ If you find any bug please open an issue and provide details.
 ## Author
 
 👋🏻 [Anton Gaenko](https://www.linkedin.com/in/antongaenko/). You can contact me `hi (at) antongaenko.dev` for questions or if you want to code together.
-May be you want to support me but don’t see any payment link for donate ))
+May be you want to support me but don’t see any payment link )) 
 
 ## License
 

@@ -40,6 +40,8 @@ extension UIViewController {
     func add(command: Command) { add(commands: [command]) }
 
     func add(commands: [Command]) {
+        guard !commands.isEmpty else { return }
+
         let existingCommands = Self.bindings.object(forKey: self)?.commands ?? []
         let allCommands = commands + existingCommands
         // we put custom commands at first place
@@ -112,5 +114,19 @@ extension UIViewController {
             return true
         default : return false
         }
+    }
+}
+
+extension UIViewController {
+    func addDebug(command: Command) {
+        #if DEBUG
+        add(command: command)
+        #endif
+    }
+
+    func addDebug(commands: [Command]) {
+        #if DEBUG
+        add(commands: commands)
+        #endif
     }
 }
