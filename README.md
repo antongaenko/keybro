@@ -1,4 +1,10 @@
-![build&test](https://github.com/antongaenko/keybro/workflows/bro%20workflow/badge.svg?branch=main)
+
+<p>
+<img src="https://github.com/antongaenko/keybro/workflows/bro%20workflow/badge.svg?branch=main" />
+<img src="https://img.shields.io/badge/Swift-5.0-orange.svg" />
+<img src="https://img.shields.io/badge/Licence-MIT-green.svg" alt="License" />
+<img src="https://img.shields.io/cocoapods/v/Keybro.svg?style=flat" alt="Pod Version" />
+</p>
 
 # Keybro
 
@@ -45,20 +51,20 @@ G) Or make some useless and fun things like zooming 🔫 ([link to source code](
 
 ## Installation
 
-### Option A. Manual installation
+### Swift Package Manager
+
+Package name is Keybro and full package link is `https://github.com/antongaenko/keybro`.
+
+### Cocoapods
+
+```pod 'Keybro'```
+
+### Manual
+
 Just download and add `Keybro.swift` as a source file to your project (its 120 lines of code).
 
 ```curl -O https://raw.githubusercontent.com/antongaenko/keybro/main/keybro/Keybro.swift```
 
-### Option B. Use SPM
-
-Package name is Keybro and full package link is `https://github.com/antongaenko/keybro`.
-
-Add `import Keybro`. That's it.
-
-### Other options
-
-I'm also planning to add support for Cocoapods and Carthage later.
 
 ## How to use?
 
