@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A01BCC425CA910600270958 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		3A1BA47325912B6D00F6F046 /* PinExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinExampleViewController.swift; sourceTree = "<group>"; };
 		3A1BA47625912B8B00F6F046 /* ScenariosExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenariosExampleViewController.swift; sourceTree = "<group>"; };
 		3A1BA4792591E75E00F6F046 /* LabeledController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledController.swift; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		3A1ECB7C25828EAF00620E63 = {
 			isa = PBXGroup;
 			children = (
+				3A01BCC425CA910600270958 /* Package.swift */,
 				3A1ECB8925828F3000620E63 /* keybro */,
 				3A289EFC25A71ECE00B7CF9C /* tests */,
 				3A1ECB8825828F3000620E63 /* Products */,
