@@ -1,19 +1,18 @@
 // swift-tools-version:5.0
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "keybro",
+    name: "Keybro",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v9),
     ],
     products: [
-        .library(name: "keybro", targets: ["keybro"]),
+        .library(name: "Keybro", targets: ["Keybro"]),
     ],
     targets: [
         .target(
-            name: "keybro",
+            name: "Keybro",
             dependencies: [],
             path: "keybro",
             sources: ["Keybro.swift"]

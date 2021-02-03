@@ -7,10 +7,10 @@
 
 import UIKit
 
-enum Command {
-    typealias Action = () -> Void
+public enum Command {
+    public typealias Action = () -> Void
 
-    enum Key: String {
+    public enum Key: String {
         case enter = "\r"
         case backspace = "\u{8}"
         case digits = "0123456789"
@@ -37,9 +37,9 @@ extension UIViewController {
 
     static private var bindings = NSMapTable<UIViewController, CommandsWrapper>(keyOptions: .weakMemory)
 
-    func add(command: Command) { add(commands: [command]) }
+    public func add(command: Command) { add(commands: [command]) }
 
-    func add(commands: [Command]) {
+    public func add(commands: [Command]) {
         guard !commands.isEmpty else { return }
 
         let existingCommands = Self.bindings.object(forKey: self)?.commands ?? []
@@ -54,7 +54,7 @@ extension UIViewController {
         commands.flatMap(keyCommands).forEach(addKeyCommand)
     }
 
-    func removeAllCommands() {
+    public func removeAllCommands() {
         Self.bindings.removeObject(forKey: self)
         keyCommands?.forEach(removeKeyCommand)
     }
@@ -118,13 +118,13 @@ extension UIViewController {
 }
 
 extension UIViewController {
-    func addDebug(command: Command) {
+    public func addDebug(command: Command) {
         #if DEBUG
         add(command: command)
         #endif
     }
 
-    func addDebug(commands: [Command]) {
+    public func addDebug(commands: [Command]) {
         #if DEBUG
         add(commands: commands)
         #endif

@@ -45,11 +45,20 @@ G) Or make some useless and fun things like zooming 🔫 ([link to source code](
 
 ## Installation
 
-Just download and add `Keybro.swift` (its 120 lines of code) to your project.
+### Option A. Manual installation
+Just download and add `Keybro.swift` as a source file to your project (its 120 lines of code).
 
 ```curl -O https://raw.githubusercontent.com/antongaenko/keybro/main/keybro/Keybro.swift```
 
-I'm also planning to add support for SPM, Cocoapods and Carthage later.
+### Option B. Use SPM
+
+Package name is Keybro and full package link is `https://github.com/antongaenko/keybro`.
+
+Add `import Keybro`. That's it.
+
+### Other options
+
+I'm also planning to add support for Cocoapods and Carthage later.
 
 ## How to use?
 
