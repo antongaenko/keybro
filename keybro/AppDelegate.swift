@@ -42,13 +42,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let scrollingController = ScrollingExampleViewController(style: .grouped)
         scrollingController.tabBarItem = .init(title: "⌃2", image: nil, tag: 1)
         let pinController = PinExampleViewController()
-        pinController.tabBarItem = .init(title: "⌃3", image: nil, tag: 1)
+        pinController.tabBarItem = .init(title: "⌃3", image: nil, tag: 2)
         let scenariosController = ScenariosExampleViewController()
-        scenariosController.tabBarItem = .init(title: "⌃4", image: nil, tag: 1)
+        scenariosController.tabBarItem = .init(title: "⌃4", image: nil, tag: 3)
+        let animationController = AnimationExampleViewController()
+        animationController.tabBarItem = .init(title: "⌃5", image: nil, tag: 4)
         tabBarController.viewControllers = [
-            navigationController, scrollingController, pinController, scenariosController
+            navigationController, scrollingController, pinController, scenariosController, animationController
         ]
-        navigationController.addLegend("Use ⌃1/2/3/4 to switch tabs", anchor: .tabBar)
+        navigationController.addLegend("Use ⌃1/2/3/4/5 to switch tabs", anchor: .tabBar)
         addTabBarControllerCommands()
     }
 
@@ -78,18 +80,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     private func addTabBarControllerCommands() {
         tabBarController.add(commands: [
-            .custom(input: "1", modifiers: .control, action: { [weak tabBarController] in
+            .custom(input: "1", modifiers: .control) { [weak tabBarController] in
                 tabBarController?.selectedIndex = 0
-            }),
-            .custom(input: "2", modifiers: .control, action: { [weak tabBarController] in
+            },
+            .custom(input: "2", modifiers: .control) { [weak tabBarController] in
                 tabBarController?.selectedIndex = 1
-            }),
-            .custom(input: "3", modifiers: .control, action: { [weak tabBarController] in
+            },
+            .custom(input: "3", modifiers: .control) { [weak tabBarController] in
                 tabBarController?.selectedIndex = 2
-            }),
-            .custom(input: "4", modifiers: .control, action: { [weak tabBarController] in
+            },
+            .custom(input: "4", modifiers: .control) { [weak tabBarController] in
                 tabBarController?.selectedIndex = 3
-            })
+            },
+            .custom(input: "5", modifiers: .control) { [weak tabBarController] in
+                tabBarController?.selectedIndex = 4
+            }
         ])
     }
 }
