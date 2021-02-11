@@ -10,7 +10,7 @@
 
 ## What is it? 
 
-It's a wrapper for `UIKeyCommand` which allows you to easily create keyboard shortcuts for your iOS app. It can speed up development and manual testing apps in simulator. This micro lib contains one file and only [120 lines of code](https://github.com/antongaenko/keybro/blob/main/keybro/Keybro.swift). You can run an example app or scroll below for inspiration.
+It's a wrapper for `UIKeyCommand` which allows you to easily create keyboard shortcuts for your iOS app. It can speed up development and manual testing apps in simulator. This micro lib contains one file and only [120 lines of code](https://github.com/antongaenko/keybro/blob/main/keybro/Keybro.swift). You can run an example app, run `pod try Keybro` or scroll below for inspiration.
 
 ## Why?
 
@@ -44,7 +44,11 @@ F) Switch tabs in tab controller ([link to source code](https://github.com/anton
 
 <img src=https://raw.githubusercontent.com/antongaenko/d/main/keybro/tabs.gif width=200>
 
-G) Or make some useless and fun things like zooming 🔫 ([link to source code](https://github.com/antongaenko/keybro/blob/main/keybro/Examples/LoopThroughExampleViewController.swift#L75))
+G) Return a keyboard shortcut to toggle on/off Slow animations mode or show debug menu ([link to source code](https://github.com/antongaenko/keybro/blob/main/keybro/Examples/AnimationExampleViewController.swift#L25))
+
+<img src=https://raw.githubusercontent.com/antongaenko/d/main/keybro/animation.gif width=200>
+
+H) Or make some useless and fun things like zooming 🔫 ([link to source code](https://github.com/antongaenko/keybro/blob/main/keybro/Examples/LoopThroughExampleViewController.swift#L75))
 
 <img src=https://raw.githubusercontent.com/antongaenko/d/main/keybro/zoom.gif width=200>
 
@@ -96,6 +100,8 @@ navigationController.add(commands: [
 > Check full example [AppDelegate](https://github.com/antongaenko/keybro/blob/main/keybro/AppDelegate.swift#L68)
 
 **Don't forget using `weak` reference in action blocks of commands.**
+
+**Some keyboard shortcuts will not work because conflicts with system ones. You can change a modifier in such case.**
 
 ## Contributing
 
