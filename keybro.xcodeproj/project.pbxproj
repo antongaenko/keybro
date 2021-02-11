@@ -16,6 +16,7 @@
 		3A1ECBAC2582AFEC00620E63 /* Keybro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ECBAB2582AFEC00620E63 /* Keybro.swift */; };
 		3A289EFE25A71ECE00B7CF9C /* KeybroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A289EFD25A71ECE00B7CF9C /* KeybroTests.swift */; };
 		3A289F0525A71EFE00B7CF9C /* Keybro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1ECBAB2582AFEC00620E63 /* Keybro.swift */; };
+		3A3E863025D02F2D00BD20F2 /* AnimationExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E862F25D02F2D00BD20F2 /* AnimationExampleViewController.swift */; };
 		3A9F9282258A0EF0003E5268 /* ScrollCommandsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F9281258A0EF0003E5268 /* ScrollCommandsProtocol.swift */; };
 		3A9F9286258A13E9003E5268 /* LoopThroughCommandsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F9285258A13E9003E5268 /* LoopThroughCommandsProtocol.swift */; };
 		3ABA19592598C6CC00AE255E /* LegendLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA19582598C6CC00AE255E /* LegendLabel.swift */; };
@@ -36,6 +37,7 @@
 		3A289EFB25A71ECE00B7CF9C /* tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A289EFD25A71ECE00B7CF9C /* KeybroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeybroTests.swift; sourceTree = "<group>"; };
 		3A289EFF25A71ECE00B7CF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3E862F25D02F2D00BD20F2 /* AnimationExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExampleViewController.swift; sourceTree = "<group>"; };
 		3A9F9281258A0EF0003E5268 /* ScrollCommandsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCommandsProtocol.swift; sourceTree = "<group>"; };
 		3A9F9285258A13E9003E5268 /* LoopThroughCommandsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopThroughCommandsProtocol.swift; sourceTree = "<group>"; };
 		3ABA19582598C6CC00AE255E /* LegendLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendLabel.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				3A1BA4792591E75E00F6F046 /* LabeledController.swift */,
 				3ABA19582598C6CC00AE255E /* LegendLabel.swift */,
 				3ABA195B2599118000AE255E /* UIViewController+Legend.swift */,
+				3A3E862F25D02F2D00BD20F2 /* AnimationExampleViewController.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				3A1BA47A2591E75E00F6F046 /* LabeledController.swift in Sources */,
 				3A9F9282258A0EF0003E5268 /* ScrollCommandsProtocol.swift in Sources */,
+				3A3E863025D02F2D00BD20F2 /* AnimationExampleViewController.swift in Sources */,
 				3A1BA47725912B8B00F6F046 /* ScenariosExampleViewController.swift in Sources */,
 				3ABA19592598C6CC00AE255E /* LegendLabel.swift in Sources */,
 				3ABA195C2599118000AE255E /* UIViewController+Legend.swift in Sources */,
